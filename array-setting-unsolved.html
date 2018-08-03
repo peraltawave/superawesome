@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array Modifications</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+    // Create an Array of Drinks with all capital letters
+    // ...
+    var drinks = ["Coke", "Pepsi", "Water", "Orange Juice"];
+    // ...
+
+// this is the first listing out on the console of what is in the array
+    console.log("First statement");
+    console.log(drinks[0]);
+    console.log(drinks[1]);
+    console.log(drinks[2]);
+    console.log(drinks[3]);
+
+
+
+    // We can modify the items in an array - notice that i have 3 (orange juice mistakenly repeated)
+    drinks[0] = drinks[3].toLowerCase();
+    drinks[1] = drinks[3].toLowerCase();
+    drinks[2] = drinks[3].toLowerCase();
+    drinks[3] = drinks[3].toLowerCase();
+
+
+
+
+    // New array that displays the lower case stuff in the console
+    console.log("Second statement".toLowerCase()); // this is just showing that you can apply tolowercase to a string
+    console.log(drinks[0]);
+    console.log(drinks[1]);
+    console.log(drinks[2]);
+    console.log(drinks[3]);
+
+
+
+
+
+
+
+    </script>
+
+  </body>
+</html>
