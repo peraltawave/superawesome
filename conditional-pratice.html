@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Condition Practice</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+    var confirmSteak = confirm("Do you like steak?");
+    
+      if (confirmSteak) {
+        document.write("Here's a steak sandwich");
+        }
+        
+      else  {
+        document.write("Here's some tofu");
+      }
+      //alert("You like steak!!");
+
+      // Bonus
+      // Here we ask the user what year they were born, and store their response to a variable.
+      var birthYear = prompt("What year were you born?");
+
+      // If the user was born before 1995, alert "SAKE SAKE SAKE!"
+      if (birthYear < 1995) {
+        alert("SAKE SAKE SAKE!");
+      }
+      // Else if the user was born after 1995, alert "No Sake for you!"
+      else if (birthYear > 1995) {
+        alert("No Sake for you!");
+      }
+      // If neither of the previous conditions was true (birthYear === 1995) we alert "You inched by!"
+      else {
+        alert("You inched by! Sake Sake Sake!");
+      }
+      
+</script>
+</body>
+</html>
