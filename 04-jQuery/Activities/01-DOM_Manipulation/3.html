@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic JavaScript Dump</title>
+</head>
+  <body>
+
+    <div id="emptyDiv"></div>
+
+    <script type="text/javascript">
+
+      var targetDiv = document.getElementById("emptyDiv");
+
+      targetDiv.textContent = "Hello friends!";
+
+      // If we try to add to the div using the same .textContent method... it just replaces the old content.
+      // Note the use of "=", the assignment operator
+      targetDiv.textContent = "A pleasure to meet you!";
+
+    </script>
+
+  </body>
+</html>
